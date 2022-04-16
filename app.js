@@ -45,3 +45,5 @@ function keyPress(e) {
     }
 }
 document.addEventListener('keydown', keyPress);
+
+window.addEventListener('scroll', slideSuivante);
